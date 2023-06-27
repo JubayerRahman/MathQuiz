@@ -1,0 +1,53 @@
+.QuizSection{
+    display: flex; flex-direction: column; align-items: center; justify-content: space-evenly;
+    border: 2px solid green;border-radius: 15px; background-color: white; filter: drop-shadow(0px 0px 5px gray);
+}
+.QuizSection p{
+    padding-left: 10px; padding-right: 10px; margin: 0px;
+}
+.quizTitle{
+    background-color: green; color: white; margin-top: 0px; border-top-left-radius: 10px;
+    border-top-right-radius: 10px; width: 100%; padding-top: 10px; padding-bottom: 10px;
+}
+.inputSecion{
+    width: 90%; display: flex; flex-direction: column; align-items: center; margin: 0%; padding: 0%;
+}
+.inputButtons{
+    display: flex; align-items: center; justify-content: space-between; width: 95%;
+}
+.QuizSection input{
+    width: 95%; padding: 10px; font-size: 20px; border-radius: 5px;
+    border: 2px solid #FF033E; font-family: 'JetBrains Mono', monospace;
+    margin-top: 0px; margin-bottom: 20px; text-align: center; font-weight: bold;outline: none;
+}
+.QuizSection button{
+    width: 45%; color: white; margin-bottom: 30px; background-color: green;
+    font-size: 20px; border-radius: 5px; padding: 10px; border: 2px solid green;
+    font-family: 'JetBrains Mono', monospace; margin-left: 0; margin-right: 0; font-size: 20px;
+}
+.quitLink{
+    font-size: 20px; margin-left: 0; margin-right: 0; text-decoration: none; background-color: #FF033E;
+    color: white; width: 45%; padding: 10px; border: 2px solid #FF033E; font-family: 'JetBrains Mono', monospace;
+    border-radius: 5px;display: flex; flex-direction: column; align-items: center; margin-bottom: 30px;
+}
+::placeholder{
+    font-family: 'JetBrains Mono', monospace;
+}
+.QuizSection p{
+    margin-bottom: 15px;
+}
+@media (max-width:768px) {
+    .QuizSection{
+        width: 90vw;
+    }
+    .QuizSection p{
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+    .QuizSection input{
+        width: 90%;
+    }
+    .quitLink, .QuizSection button{
+        width: 40%;
+    }
+}

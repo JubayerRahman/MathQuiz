@@ -1,0 +1,15 @@
+.cradit{
+    font-size: 20px;
+    color: green;
+}
+.cradit a{
+    text-decoration: none;
+    color: orange;
+}
+
+@media (max-width:768px) {
+    .cradit{
+        margin-top: 50px;
+        font-size: 12px;
+    }
+}
